@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background: url('https://i.imgur.com/qMEu2Xb.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: #aaa;
+  font-family: helvetica;
+}
+
+img {
+  margin-top: 250px;
+  border-radius: 50%;
+  border: 5px blue solid;
+}
+p {
+  font-size: 22px;
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+input[type='submit'] {
+  background: red;
+  color: white;
+}
